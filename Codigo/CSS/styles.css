@@ -1,0 +1,43 @@
+:root{
+    --color-primario: #ff7300; 
+}
+
+header{
+    text-align: center;
+    background-color: var(--color-primario);
+}
+
+section{
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+table, th, td{
+    width: 30%;
+    border: 1px solid black;
+    text-align: center;
+}
+footer{
+    font-size: 20px;
+    text-align: center;
+    background-color: var(--color-primario);
+    padding: 10px;
+}
+
+
+
+/*
+table{
+    width: 30%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th, td{
+    border: 1px solid black;
+    pad: 1px;
+    text-align: center;
+}
+*/
+

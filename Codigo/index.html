@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Práctico HTML</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Trabajo Práctico HTML</h1>
+    </header>
+
+    <main>
+        <section>
+            <!-- Estructura Básica del Documento HTM-->
+            <div>
+                <h2>1. Estructura Básica del Documento HTML</h2>
+                <P>Este documento HTML, tiene una estructura básica que incluye la declaracióm del DOCTYPE, etiquetas de metadatos y un título</P>
+            </div>
+            
+            <!-- Encabezados y Propiedades del Texto-->
+            <div>
+                <h2>2. Encabezados y Propiedades del Texto</h2>
+                <p><b>Este es un texto en negrita</b></p> <!-- también se puede usar <strong></strong>-->
+                <p><i>Este es un texto en cursiva</i></p> <!-- también se puede usar <em></em>-->
+                <p><u>Este es un texto en subrayado</u></p>
+            </div>
+            
+            <!-- Divisiones y Agrupación de Contenido -->
+            <div>
+                <h2>3. Divisiones y Agrupación de Contenido</h2>
+                <div>
+                    <h3>Sección 1</h3>
+                    <p>Contenido de la primera sección agrupada en un div.</p>
+                </div>
+                <div>
+                    <h3>Sección 2</h3>
+                    <p>Contenido de la segunda sección agrupada en un div.</p>
+                </div>
+            </div>
+            
+
+            <!-- Enlaces y Listas -->
+            <div>
+                <h2>4. Enlaces y Listas</h2>
+                <p>Visita nuestro <a href="https://www.youtube.com/watch?v=h9hHhIZuK6I&list=PLRFOqDrY-6ns2FQdjmqx3ShGLRLj9ESPE&index=3">sitio web</a> para mas información.</p>
+
+                <p>Enlaces internos</p>
+                <ul>
+                    <li><a href="./HTML/escritura.html">Ir a Escritura</a></li>
+                    <li><a href="./HTML/multimedia.html">Ir a Multimedia</a></li>
+                    <li><a href="./HTML/formulario.html">Ir a Formulario</a></li>
+                </ul>
+
+                <p>Lista desordenada</p>
+                <ul>
+                    <li>Primer ítem de una lista desordenada</li>
+                    <li>Segundo ítem de una lista desordenada</li>
+                </ul>
+
+                <p>Lista Ordenada</p>
+                <ol>
+                    <li>Primer ítem de una lista ordenada</li>
+                    <li>Seundo ítem de una lista ordenada</li>
+                </ol>
+
+            </div>
+        </section>
+
+        <section>
+        <!-- Encabezados y Propiedades del Texto-->
+            <div>
+                <h2>5. Elementos Multimedia</h2>
+                <img src="./img/HTML5_logo_and_wordmark.svg.png" alt="Foto HTML" width="200" height="200">
+
+                <!--También puedo usar <video></video> pero tendría que tener el video descargado y dentro del proyecto-->
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/AyUI13AjYeI?si=2LZ2oS_A1x6YKgzP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <audio src="./audio/Charlie Puth - Attention.mp3" controls></audio>
+            </div>
+        
+            <!-- Tablas -->
+            <div>
+                <h2>6. Tablas</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Columna 1</th>
+                            <th>Columna 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dato 1</td>
+                            <td>Dato 2</td>
+                        </tr>
+                        <tr>
+                            <td>Dato 3</td>
+                            <td>Dato 4</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </div>
+
+            <!-- Formularios -->
+            <div>
+                <h2>7. Formularios</h2>
+                <form action="">
+                    <div>
+                        <label for="">Nombre:</label>
+                        <input type="text" placeholder="Ingrese su nombre">
+                    </div>
+                    <div>
+                        <label for="">Email: </label>
+                        <input type="email" placeholder="example@example.com">
+                    </div>
+                    <div>
+                        <label for="">Mensaje:</label>
+                        <textarea placeholder="Deje información extra"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Enviar formulario</button>
+                    </div>
+                
+                </form>
+        
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado por <strong>Matías Araya</strong></p>
+    </footer>   
+
+</body>
+</html>
